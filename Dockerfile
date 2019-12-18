@@ -1,4 +1,4 @@
-FROM node:12.13.1-alpine3.10
+FROM node:12.14.0-alpine3.10
 
 LABEL maintainer="jonz94 <jody16888@gmail.com>"
 
