@@ -2,7 +2,7 @@ FROM node:12.16.2-alpine3.11
 
 LABEL maintainer="jonz94 <jody16888@gmail.com>"
 
-RUN npm install -g prettier@2.0.2
+RUN npm install -g prettier@2.0.4
 
 COPY docker-entrypoint.sh /usr/local/bin/
 
